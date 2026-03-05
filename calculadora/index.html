@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <main class="calculator">
+      <div class="visor">
+        <p class="digitos"></p>
+        <p class="digitoAtual"></p>
+      </div>
+      <section class="corpo">
+        <button class="botao C">C</button>
+        <button class="botao" onclick="apagaDigito()"><==</button>
+        <button class="botao op" onclick="adicionarCaracter('+')">+</button>
+        <button class="botao op" onclick="adicionarCaracter('-')">-</button>
+        <button class="botao" onclick="adicionarCaracter('1')">1</button>
+        <button class="botao" onclick="adicionarCaracter('2')">2</button>
+        <button class="botao" onclick="adicionarCaracter('3')">3</button>
+        <button class="botao op" onclick="adicionarCaracter('/')">/</button>
+        <button class="botao" onclick="adicionarCaracter('4')">4</button>
+        <button class="botao" onclick="adicionarCaracter('5')">5</button>
+        <button class="botao" onclick="adicionarCaracter('6')">6</button>
+        <button class="botao op" onclick="adicionarCaracter('x')">x</button>
+        <button class="botao" onclick="adicionarCaracter('7')">7</button>
+        <button class="botao" onclick="adicionarCaracter('8')">8</button>
+        <button class="botao" onclick="adicionarCaracter('9')">9</button>
+        <button class="botao" onclick="adicionarCaracter('.')">.</button>
+        <button class="botao" onclick="adicionarCaracter('0')">0</button>
+        <button class="botao botaoIgual" onclick="calcular()">=</button>
+      </section>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,64 @@
+* {
+  font-family: "Roboto";
+}
+
+body {
+  background: linear-gradient(to left, blue, darkblue, navy);
+}
+
+.calculator {
+  color: white;
+  width: 400px;
+  height: 500px;
+  border: 5px solid;
+  border-color: black;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.visor {
+  width: 400px;
+  height: 100px;
+  background-color: white;
+  font-size: 40px;
+  color: black;
+  text-align: right;
+  overflow: auto;
+}
+
+.corpo {
+  background-color: gray;
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+}
+
+.botao {
+  font-size: large;
+  padding: 10px;
+  width: 70px;
+  height: 50px;
+  margin: 10px;
+  box-shadow: 2px 2px black;
+}
+
+.botao:hover {
+  background-color: darkgray;
+}
+
+.botaoIgual {
+  width: 250px;
+  margin-left: 20px;
+  font-size: xx-large;
+}
+
+.digitos {
+  position: absolute;
+  color: gray;
+  top: 25px;
+  right: 590px;
+  font-size: 25px;
+}
